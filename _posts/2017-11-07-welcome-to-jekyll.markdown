@@ -2,7 +2,7 @@
 layout: post
 title:  "Genesis"
 date:   2017-11-07 21:22:00 -0300
-categories: random post
+categories: random-post
 ---
 Here is where it all starts.
 
