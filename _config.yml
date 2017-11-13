@@ -24,6 +24,7 @@ owner:
   tumblr:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
+  resume: /pdfs/resume_cv.pdf
 
 
 # Background image to be tiled on all pages

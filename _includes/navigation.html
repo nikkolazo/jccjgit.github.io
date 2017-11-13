@@ -11,6 +11,9 @@
 					<p>{{ site.owner.bio }}</p>
 				</li>
 				<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				{% if site.owner.resume %}<li>
+					<a href="{{ site.owner.resume }}"><i class="fa fa-fw fa-file"></i> Resume</a>
+				</li>{% endif %}
 				{% if site.owner.email %}<li>
 					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
 				</li>{% endif %}
