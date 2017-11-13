@@ -1,0 +1,7 @@
+<article>
+{% for pdf in include.pdfs %}
+  <ul>
+      <li class="entry-title"><a href="{{ pdf.path }}" title="{{ pdf.title }}">{{ pdf.title }}</a></li>
+  </ul>
+{% endfor %}
+</article>
